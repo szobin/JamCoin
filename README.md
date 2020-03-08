@@ -1,14 +1,11 @@
-GravityCoin [GXX] (Sigma protocol)
+JamCoin [JXX] (Sigma protocol)
 ===============================
 
-
-[![Build Status](https://travis-ci.com/GravityCoinOfficial/GravityCoin.svg?branch=master)](https://travis-ci.com/GravityCoinOfficial/GravityCoin)
-
-GravityCoin
+JamCoin
 ----------------
 * Coin Suffix: GXX
 * Algorithm: lyra2z330
-* Algo params: LYRA2(BEGIN(thash), 32, BEGIN(nVersion), 80, BEGIN(nVersion), 80, 2, 330, 256)
+* Algo params: LYRA2(BEGIN(thash), 32, BEGIN(nVersion), 80, BEGIN(nVersion), 80, 2, 380, 256) 
 * Target Spacing: 150 Seconds
 * Retarget: every block
 * Confirmation: 6 Blocks
@@ -28,9 +25,9 @@ Net Parameters
 
 Installation folder
 ----------------
-* Windows: C:\Users\Username\AppData\Roaming\GravityCoin
-* Mac: /Library/Application Support/GravityCoin
-* Unix: /.GravityCoin
+* Windows: C:\Users\Username\AppData\Roaming\JamCoin
+* Mac: /Library/Application Support/JamCoin
+* Unix: /.JamCoin
 
 Debian/Ubuntu Linux Daemon Build Instructions
 ================================================
@@ -60,7 +57,7 @@ Debian/Ubuntu Linux Daemon Build Instructions
 	for qt:
 	sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler libqrencode-dev
 
-	git clone https://github.com/GravityCoinOfficial/gravitycoin
+	git clone https://github.com/szobin/JamCoin
 
 	cd GravityCoin
 	for vps:

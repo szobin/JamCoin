@@ -1105,7 +1105,7 @@ void static GravityCoinMiner(const CChainParams &chainparams) {
                 uint256 thash;
 
                 while (true) {
-                    LYRA2(BEGIN(thash), 32, BEGIN(pblock->nVersion), 80, BEGIN(pblock->nVersion), 80, 2, 380, 256);  // 330
+                    LYRA2(BEGIN(thash), 32, BEGIN(pblock->nVersion), 80, BEGIN(pblock->nVersion), 80, 2, 380, 256);  // sz: 330
                     if (UintToArith256(thash) <= hashTarget) {
                         // Found a solution
                         LogPrintf("Found a solution. Hash: %s", UintToArith256(thash).ToString());

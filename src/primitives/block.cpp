@@ -29,7 +29,7 @@ uint256 CBlockHeader::GetHash() const {
 uint256 CBlockHeader::GetPoWHash() const {
 
     uint256 powHash;
-    LYRA2(BEGIN(powHash), 32, BEGIN(nVersion), 80, BEGIN(nVersion), 80, 2, 380, 256);  # 330
+    LYRA2(BEGIN(powHash), 32, BEGIN(nVersion), 80, BEGIN(nVersion), 80, 2, 380, 256);  // sz: 330
     return powHash;
 
 }
